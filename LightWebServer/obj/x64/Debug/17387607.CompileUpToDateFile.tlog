@@ -1,0 +1,4 @@
+D:\workingflows\LightWebServer\LightWebServer\test.cpp|638087940635942243|/home/ubuntu/projects/LightWebServer/||g++ -c -x c++ /home/ubuntu/projects/LightWebServer/test.cpp -g2 -gdwarf-2 -o "/home/ubuntu/projects/LightWebServer/obj/x64/Debug/test.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+D:\workingflows\LightWebServer\LightWebServer\test_thread_locker.h|638087930695508719|/home/ubuntu/projects/LightWebServer/|| 
+D:\workingflows\LightWebServer\LightWebServer\threadpool.h|638087930695447860|/home/ubuntu/projects/LightWebServer/|| 
+D:\workingflows\LightWebServer\LightWebServer\thread_locker.h|638087930695653885|/home/ubuntu/projects/LightWebServer/|| 
