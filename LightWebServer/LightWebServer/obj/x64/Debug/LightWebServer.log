@@ -1,0 +1,9 @@
+﻿  正在验证源
+  正在将源远程复制到“101.34.10.99”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  test.cpp
+  正在链接对象
+  LightWebServer.vcxproj -> D:\analysis  workspace\VScode workspace\LightWebServer\LightWebServer\bin\x64\Debug\LightWebServer.out
