@@ -1,1 +1,0 @@
-g++ -o "/home/ubuntu/projects/LightWebServer/bin/x64/Debug/LightWebServer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ubuntu/projects/LightWebServer/obj/x64/Debug/test.o
