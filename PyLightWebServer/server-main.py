@@ -7,20 +7,29 @@ import concurrent.futures
 import re
 import time
 import os
+import sys
+from datetime import datetime
 
 #--------------------------库import结束--------------------------#
 
 #--------------------------参数配置--------------------------#
 
 #HTML文件路径
-DOCUMENTS_ROOT = "D:\workingflows\LightWebServer\PyLightWebServer\html"  #windows
-# DOCUMENTS_ROOT = "home\ubuntu\PyLightServer\html"  #Linux 
+DOCUMENTS_ROOT = "html"
 #因为文件都放在当前路径下的html文件夹里，所以这里定义一个固定路径，存放的是提前写好的网页文件。
 
 # 文件体解码格式
 DECODING_FORMAT = "gbk"
 # DECODING_FORMAT = "utf-8"
 
+#日志文件路径
+DOCUMENT_PATH = "log.txt"
+#异常日志文件路径
+EXCEPTION_PATH = "exception.txt"
+#定义
+LOG_PATH = open(DOCUMENT_PATH, "a")      #日志输出
+EXCEPTION_LOG = open(EXCEPTION_PATH, "a")   
+sys.stderr = EXCEPTION_LOG   #代理系统错误输出
 #--------------------------参数配置结束--------------------------#
 #-------------------------功能函数定义----------------------------#
 
@@ -35,15 +44,22 @@ def handle_client(client_socket):
     b'GET /images/qt-logo.png HTTP/1.1\r\nHost: 127.0.0.1:7890\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36\r\nAccept: image/webp,image/apng,image/*,*/*;q=0.8\r\nReferer: http://127.0.0.1:7890/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\n\r\n'
     '''
     request_header_lines = recv_data.splitlines() #1.将服务器接收的数据按HTTP格式进行切分，模式分割符就是\r\n
-    for line in request_header_lines:   #打印是为了测试使用
-        print(line)
+    
+    # 将原先的测试用输出代码写入日志
+    for line in request_header_lines:   #打印是为了测试(日志)使用
+        LOG_PATH.write(line)
+        LOG_PATH.write('\n')
+        LOG_PATH.flush()
     if len(request_header_lines) > 0:
         http_request_line = request_header_lines[0]  #2.获取请求数据的第一行，比如：GET /images/qt-logo.png HTTP/1.1
         get_file_name = re.match("[^/]+(/[^ ]*)", http_request_line).group(1)  #3.获取客户端请求的文件名images/qt-logo.png
     else:
         response_headers = "HTTP/1.1 404 not found\r\n"
-        response_body = "====sorry ,file not found, 请你刷新下界面，这只是小问题(doge)===="
-    print("file name is ===>%s" % get_file_name)  # for test
+        response_body = "====sorry ,file not found===="
+    
+    # LOG_PATH.write("file name is ===>%s" % get_file_name)  # for test
+    # LOG_PATH.write('\n')
+    # LOG_PATH.flush()
     
     # 如果没有指定访问哪个页面。例如index.html
     # GET / HTTP/1.1
@@ -52,7 +68,9 @@ def handle_client(client_socket):
     else:
         get_file_name = DOCUMENTS_ROOT + get_file_name
 
-    print("file name is ===2>%s" % get_file_name) #for test
+    LOG_PATH.write("file name is ===2>%s" % get_file_name) #for test
+    LOG_PATH.write('\n')
+    LOG_PATH.flush()
 
     try:
         if get_file_name.find(".woff")==-1 and get_file_name.find(".tff")==-1:
@@ -82,7 +100,8 @@ def handle_client(client_socket):
         else:
             client_socket.send(response_body)
         client_socket.close()
-
+    LOG_PATH.write("-------------------------------------------\n\n\n")
+    LOG_PATH.flush()
 
 #-------------------------功能函数定义结束----------------------------#
 
@@ -93,15 +112,12 @@ def main():
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_socket.bind(("", 16686))
     server_socket.listen(128)
-
-    #主体运行域
+    #添加日志记录系统在这里
+        #主体运行域
     while True:
-        try:
-            with concurrent.futures.ThreadPoolExecutor(max_workers=5120) as executor:
-                client_socket, clien_cAddr = server_socket.accept()
-                results = executor.submit(handle_client, client_socket)
-        except IndexError or UnboundLocalError:
-            continue
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5120) as executor:
+            client_socket, clien_cAddr = server_socket.accept()
+            results = executor.submit(handle_client, client_socket)
     concurrent.futures.wait(results)
     
 
@@ -109,3 +125,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+LOG_PATH.close()
+EXCEPTION_LOG.close()
