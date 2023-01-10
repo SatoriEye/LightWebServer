@@ -55,7 +55,12 @@ def handle_client(client_socket):
     print("file name is ===2>%s" % get_file_name) #for test
 
     try:
-        f = open(get_file_name, "rb")
+        if get_file_name.find(".woff")==-1 and get_file_name.find(".tff")==-1:
+            # print(get_file_name)
+            f = open(get_file_name, "rb")
+        else:
+            # print(get_file_name[:-6])
+            f = open(get_file_name[:-6], "rb")
     except IOError: #如果没有该文件，则返回404 not found
         # 404表示没有这个页面
         response_headers = "HTTP/1.1 404 not found\r\n"

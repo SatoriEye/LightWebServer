@@ -2,7 +2,7 @@ $("#contactForm").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         // handle the invalid form...
         formError();
-        submitMSG(false, "Did you fill in the form properly?");
+        submitMSG(false, "少填写一个我们都会不开心的/(ㄒoㄒ)/~~");
     } else {
         // everything looks good!
         event.preventDefault();
