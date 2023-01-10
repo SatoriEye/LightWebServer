@@ -97,10 +97,13 @@ def main():
     #主体运行域
     while True:
         try:
-            client_socket, clien_cAddr = server_socket.accept()
-            handle_client(client_socket)
-        except IndexError:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=5120) as executor:
+                client_socket, clien_cAddr = server_socket.accept()
+                results = executor.submit(handle_client, client_socket)
+        except IndexError or UnboundLocalError:
             continue
+    concurrent.futures.wait(results)
+    
 
 
 
