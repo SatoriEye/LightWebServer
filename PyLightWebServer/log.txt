@@ -1,0 +1,561 @@
+GET / HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+file name is ===2>html/index.html
+-------------------------------------------
+
+
+GET /css/bootstrap@4.6.1.min.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/bootstrap@4.6.1.min.css
+-------------------------------------------
+
+
+GET /css/font-awesome.min.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/font-awesome.min.css
+-------------------------------------------
+
+
+GET /css/line-icons.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/line-icons.css
+-------------------------------------------
+
+
+GET /css/owl.carousel.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/owl.carousel.css
+-------------------------------------------
+
+
+GET /css/owl.theme.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/owl.theme.css
+-------------------------------------------
+
+
+GET /css/nivo-lightbox.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/nivo-lightbox.css
+-------------------------------------------
+
+
+GET /css/magnific-popup.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/magnific-popup.css
+-------------------------------------------
+
+
+GET /css/animate.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/animate.css
+-------------------------------------------
+
+
+GET /css/menu_sideslide.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/menu_sideslide.css
+-------------------------------------------
+
+
+GET /css/main.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/main.css
+-------------------------------------------
+
+
+GET /css/responsive.css HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/css/responsive.css
+-------------------------------------------
+
+
+GET /js/jquery-min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/jquery-min.js
+-------------------------------------------
+
+
+GET /js/tether.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/tether.min.js
+-------------------------------------------
+
+
+GET /js/bootstrap.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/bootstrap.min.js
+-------------------------------------------
+
+
+GET /js/classie.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/classie.js
+-------------------------------------------
+
+
+GET /js/mixitup.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/mixitup.min.js
+-------------------------------------------
+
+
+GET /js/nivo-lightbox.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/nivo-lightbox.js
+-------------------------------------------
+
+
+GET /js/owl.carousel.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/owl.carousel.min.js
+-------------------------------------------
+
+
+GET /js/jquery.stellar.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/jquery.stellar.min.js
+-------------------------------------------
+
+
+GET /js/jquery.nav.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/jquery.nav.js
+-------------------------------------------
+
+
+GET /js/smooth-scroll.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/smooth-scroll.js
+-------------------------------------------
+
+
+GET /js/smooth-on-scroll.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/smooth-on-scroll.js
+-------------------------------------------
+
+
+GET /js/wow.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/wow.js
+-------------------------------------------
+
+
+GET /js/menu.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/menu.js
+-------------------------------------------
+
+
+GET /js/jquery.vide.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/jquery.vide.js
+-------------------------------------------
+
+
+GET /js/jquery.counterup.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/jquery.counterup.min.js
+-------------------------------------------
+
+
+GET /js/jquery.magnific-popup.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/jquery.magnific-popup.min.js
+-------------------------------------------
+
+
+GET /js/waypoints.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/waypoints.min.js
+-------------------------------------------
+
+
+GET /js/form-validator.min.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/form-validator.min.js
+-------------------------------------------
+
+
+GET /js/contact-form-script.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/contact-form-script.js
+-------------------------------------------
+
+
+GET /js/main.js HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/js/main.js
+-------------------------------------------
+
+
+GET /img/features/feature.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/img/features/feature.jpg
+-------------------------------------------
+
+
+GET /img/portfolio/img1.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/img/portfolio/img1.jpg
+-------------------------------------------
+
+
+GET /img/portfolio/img2.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/img/portfolio/img2.jpg
+-------------------------------------------
+
+
+GET /img/portfolio/img3.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/img/portfolio/img3.jpg
+-------------------------------------------
+
+
+GET /img/portfolio/img4.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/img/portfolio/img4.jpg
+-------------------------------------------
+
+
+GET /img/portfolio/img5.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/img/portfolio/img5.jpg
+-------------------------------------------
+
+
+GET /img/portfolio/img6.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/img/portfolio/img6.jpg
+-------------------------------------------
+
+
+GET /img/bg_2.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/css/main.css
+
+file name is ===2>html/img/bg_2.jpg
+-------------------------------------------
+
+
+GET /img/bg1.jpg HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Referer: http://192.168.1.11:16686/css/main.css
+
+file name is ===2>html/img/bg1.jpg
+-------------------------------------------
+
+
+GET /fonts/Linearicons-Free.woff2?w118d HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Origin: http://192.168.1.11:16686
+Referer: http://192.168.1.11:16686/css/line-icons.css
+
+file name is ===2>html/fonts/Linearicons-Free.woff2?w118d
+-------------------------------------------
+
+
+GET /video/video.mp4 HTTP/1.1
+Host: 192.168.1.11:16686
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: identity;q=1, *;q=0
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+Connection: keep-alive
+Range: bytes=0-
+Referer: http://192.168.1.11:16686/
+
+file name is ===2>html/video/video.mp4
+-------------------------------------------
+
+
